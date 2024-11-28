@@ -1,0 +1,16 @@
+.image{
+    flex: 1;
+    aspect-ratio: 1/1.5;
+    cursor: pointer;
+    pointer-events: auto;
+    transition: 0.4s;
+    -webkit-box
+}
+
+.image img{
+    display: block;
+    width: 100%;
+    aspect-ratio: 1/1.5;
+    object-fit: cover;
+    border-radius: 4px;
+}
